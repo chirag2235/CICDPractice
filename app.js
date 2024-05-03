@@ -2,7 +2,8 @@ console.log("app.js file for node");
 console.log(new Date());
 console.log("Added Line 3");
 console.log("edited in browser");
-const app=require('express');
+const express = require('express');
+const app = express();
 app.get('/',(req,res)=>{
     res.json({message:"server running"});
 });
