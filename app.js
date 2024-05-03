@@ -3,7 +3,7 @@ console.log(new Date());
 console.log("Added Line 3");
 console.log("edited in browser");
 const app=require('express');
-app.length('/',(req,res)=>{
+app.get('/',(req,res)=>{
     res.json({message:"server running"});
 });
 app.listen(700,()=>{
