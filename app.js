@@ -6,6 +6,6 @@ const app=require('express');
 app.get('/',(req,res)=>{
     res.json({message:"server running"});
 });
-app.listen(700,()=>{
+app.listen(7000,()=>{
     console.log("server running on 7000");
 });
